@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Monitoramento - MikroTik Manager</title>
+
+    <link rel="stylesheet" href="css/painel.css">
+</head>
+<script src="js/painel.js"></script>
+<body>
+
+    <header class="cabecalho">
+
+        <div class="marca">
+            <img 
+                src="img/logo.jpeg"
+                alt="Logo MikroTik Manager"
+                class="logo"
+            >
+        </div>
+
+    </header>
+
+
+    <main class="conteudo">
+
+        <section class="titulo">
+
+            <h2>Monitoramento</h2>
+
+            <p>
+                Visão geral da rede em tempo real
+            </p>
+
+        </section>
+
+
+        <section class="resumo">
+
+            <div class="card-status">
+                <span class="card-titulo">Hotspot</span>
+
+                <!-- Futuramente o backend colocará o status aqui -->
+                <strong>Ativo</strong>
+            </div>
+
+
+            <div class="card-status">
+                <span class="card-titulo">Usuários</span>
+
+                <!-- Futuramente virá do MikroTik -->
+                <strong>12</strong>
+            </div>
+
+
+            <div class="card-status">
+                <span class="card-titulo">Internet</span>
+
+                <!-- Futuramente virá do MikroTik -->
+                <strong>Conectada</strong>
+            </div>
+
+        </section>
+
+
+        <section class="usuarios">
+
+    <div class="usuarios-cabecalho">
+
+        <div>
+            <h3>Usuários conectados</h3>
+
+            <p>
+                Dispositivos atualmente conectados ao Hotspot
+            </p>
+        </div>
+
+        <a href="cadastroUsuario.html" class="botao-cadastrar">
+            + Cadastrar usuário
+        </a>
+
+    </div>
+
+
+    <div class="tabela">
+
+        <div class="linha tabela-cabecalho">
+            <span>Usuário</span>
+            <span>Endereço IP</span>
+            <span>Status</span>
+        </div>
+
+
+        <div class="linha">
+            <span>maria01</span>
+            <span>192.168.1.10</span>
+            <span class="online">Online</span>
+        </div>
+
+
+        <div class="linha">
+            <span>joao02</span>
+            <span>192.168.1.11</span>
+            <span class="online">Online</span>
+        </div>
+
+
+        <div class="linha">
+            <span>ana03</span>
+            <span>192.168.1.15</span>
+            <span class="online">Online</span>
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+</body>
+</html>
