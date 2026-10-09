@@ -1,4 +1,4 @@
-package com.mikrotikmanager.mikrotik_manager.controller;
+package com.mikrotikmanager.mikrotik_manager;
 
 import com.mikrotikmanager.mikrotik_manager.service.HotspotService;
 import org.springframework.web.bind.annotation.GetMapping;
